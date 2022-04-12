@@ -69,3 +69,40 @@ input{
   text-align: center;
   height: 50vh;
 }
+.box{
+  height: 50px;
+  background-color: rgb(30, 41, 70);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 25px; 
+  margin-top: 1em;
+  /* overflow: hidden; */
+}
+.box > i {
+ 
+  font-size: 20px;
+  color: rgb(25, 66, 126);
+}
+.box > input{
+  
+  flex: 1;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding-left: 7px;  
+  background-color: #1E2946;
+  color: white;
+  
+}
+
+button{
+  outline: none;
+  color: white;
+  background-color: rgb(4, 127, 254);
+  border-radius: 5px;
+  padding: 0.5em;
+  border: none;
+  
+}
